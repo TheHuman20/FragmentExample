@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.osads.fragmentexample.MainActivity">
+
+    <fragment
+        android:id="@+id/fragment_button"
+        android:name="com.example.osads.fragmentexample.ButtonFragment"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        tools:layout="@layout/fragment_button"/>
+
+    <fragment
+        android:id="@+id/fragment_image"
+        android:name="com.example.osads.fragmentexample.ImageFragment"
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        android:layout_gravity="center"
+        tools:layout="@layout/fragment_image"/>
+
+</LinearLayout>
